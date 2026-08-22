@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GNOSIS.edu — Knowledge of Everything</title>
+<meta name="description" content="GNOSIS.edu is an immersive AI education platform — an EEG headset, an AI, and your lessons become a personalized anime-style story. This is the MVP vision.">
+<meta name="keywords" content="GNOSIS.edu, AI education platform, EEG learning headset, personalized learning, gamified education, AI tutor, VTuber tutor, adaptive learning AI, education startup">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://abhi13-coder.github.io/Gnosis.edu/">
+<meta name="theme-color" content="#060810">
+<link rel="icon" href="%BASE_URL%gnosis-logo.png" type="image/png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="GNOSIS.edu — Knowledge of Everything">
+<meta property="og:description" content="An immersive, personalized learning world where questions become quests and lessons become your story.">
+<meta property="og:image" content="https://abhi13-coder.github.io/Gnosis.edu/gnosis-logo.png">
+<meta property="og:url" content="https://abhi13-coder.github.io/Gnosis.edu/">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GNOSIS.edu — Knowledge of Everything">
+<meta name="twitter:description" content="Learning that adapts to you — an EEG headset, an AI, and your lesson becomes your story.">
+<meta name="twitter:image" content="https://abhi13-coder.github.io/Gnosis.edu/gnosis-logo.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "GNOSIS.edu",
+  "url": "https://abhi13-coder.github.io/Gnosis.edu/",
+  "logo": "https://abhi13-coder.github.io/Gnosis.edu/gnosis-logo.png",
+  "description": "GNOSIS.edu is an immersive AI education platform where learning becomes a personalized story."
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="boot-lock">
+
+<div id="boot"><img src="%BASE_URL%gnosis-logo.png" alt="GNOSIS.edu" class="boot-logo"></div>
+
+<canvas id="webgl"></canvas>
+<div class="veil"></div>
+<div class="rail" id="rail"></div>
+
+<main>
+
+  <section id="hero" data-title="Hero">
+    <h1 class="reveal" style="line-height:0;" data-r="fade-scale"><img class="wordmark" src="%BASE_URL%gnosis-logo.png" alt="GNOSIS.edu"></h1>
+    <p class="brand-sub reveal" data-r="fade-up">Knowledge of Everything</p>
+    <p class="brand-tag reveal" data-r="fade-up">A new world for learning.</p>
+    <div class="cta-row reveal" data-r="fade-up">
+      <a class="btn primary" href="#mvp">Explore GNOSIS</a>
+      <a class="btn" href="#mvp">See the MVP</a>
+    </div>
+    <div class="scroll-cue"><span>Descend</span><span class="line"></span></div>
+  </section>
+
+  <section data-title="Hook">
+    <p class="eyebrow reveal" data-r="fade-up">The Philosophy</p>
+    <h2 class="hook-line reveal" data-r="fade-up">WHAT IF A QUESTION<span class="soft">felt like a quest?</span></h2>
+    <div class="quest-card reveal" data-r="fade-up">
+      <div class="qtag">Quest · The Lost Light</div>
+      <h3>Why does the sky lose its color at dusk?</h3>
+      <p>A question most learners forget by morning. Inside GNOSIS, it's the reason a hero enters the Twilight Archive at all.</p>
+    </div>
+  </section>
+
+  <section id="mvp" data-title="Core MVP">
+    <p class="eyebrow reveal" data-r="fade-up">01 · The Primary MVP</p>
+    <div class="section-head reveal" data-r="fade-up">
+      <h2>LEARNING THAT ADAPTS TO YOU.</h2>
+      <p class="lore">Your learning becomes your story.</p>
+    </div>
+
+    <div class="flow reveal" data-r="fade-up">
+      <span class="node">Learner</span><span class="arrow"></span>
+      <span class="node hi">EEG Headset</span><span class="arrow"></span>
+      <span class="node">Signals</span><span class="arrow"></span>
+      <span class="node hi">AI</span><span class="arrow"></span>
+      <span class="node">Personalized Story</span>
+    </div>
+
+    <div id="headset-stage" class="reveal" data-r="fade-scale"></div>
+    <p class="drag-hint">Drag to inspect · rendered live in 3D</p>
+
+    <p class="signal-caption reveal" data-r="fade-up"><b>GNOSIS</b> — a refined headset built for focus, not a hospital. Concept prototype · experimental personalization, not a medical device.</p>
+    <p class="disclaimer reveal" data-r="fade-up">Signal interpretation is an evolving research direction. GNOSIS makes no medical or diagnostic claims — the goal is a more attentive story, not a measured mind.</p>
+
+    <div class="story-strip reveal" data-r="fade-up">
+      <div class="panel"><div class="k">Before</div><div class="v">A static textbook page.</div></div>
+      <div class="mid">→</div>
+      <div class="panel after"><div class="k">After</div><div class="v">A world that responds to how you learn.</div></div>
+    </div>
+  </section>
+
+  <section data-title="Quest Demo">
+    <p class="eyebrow reveal" data-r="fade-up">Question → Quest</p>
+    <div class="section-head reveal" data-r="fade-up"><h2>A NEW QUEST AWAITS.</h2></div>
+    <div class="demo-frame tilt-target reveal" data-r="fade-scale">
+      <div class="demo-top">
+        <div class="qtag">Quest · The Lost Light</div>
+        <h3>The Twilight Archive</h3>
+      </div>
+      <div class="demo-body">
+        <p class="qline">"Why does the guardian's light turn amber before it fades?" — the Archive keeper asks, waiting.</p>
+        <div class="choices" id="choices">
+          <div class="choice" data-c="1">The light bends less through thinner air</div>
+          <div class="choice correct" data-c="2">Shorter wavelengths scatter away, leaving warm tones</div>
+          <div class="choice" data-c="3">The guardian is simply weakening</div>
+          <div class="choice" data-c="4">Amber is the Archive's natural color</div>
+        </div>
+        <div class="demo-result" id="demoResult">KNOWLEDGE DISCOVERED</div>
+        <p class="demo-hint">Answers are woven into the world — not graded, revealed.</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-title="Heroes">
+    <p class="eyebrow reveal" data-r="fade-up">Choose Your Hero</p>
+    <div class="section-head reveal" data-r="fade-up">
+      <h2>EVERY LEARNER BEGINS AS SOMEONE.</h2>
+      <p class="lore">Not a class. The beginning of a journey.</p>
+    </div>
+    <div class="hero-gallery">
+      <div class="hero-card tilt-target reveal" data-r="fade-up">
+        <div class="frame"><img src="%BASE_URL%gnosis-hero-selene.png" alt="Selene Veyra, moonlight hero"></div>
+        <div class="meta"><div class="name">Selene Veyra</div><div class="role">Path of the Elf</div><div class="weapon">Crescent Twin Blades</div></div>
+      </div>
+      <div class="hero-card tilt-target reveal" data-r="fade-up">
+        <div class="frame"><img src="%BASE_URL%gnosis-hero-kael.png" alt="Kael Veyran, shadow hero"></div>
+        <div class="meta"><div class="name">Kael Veyran</div><div class="role">Path of the Human</div><div class="weapon">Twin Chakrams</div></div>
+      </div>
+    </div>
+    <p class="gallery-tag reveal" data-r="fade-up">Human · STEM path — Elf · non-STEM path</p>
+  </section>
+
+  <section data-title="Guide">
+    <p class="eyebrow reveal" data-r="fade-up">02 · Secondary MVP</p>
+    <div class="section-head reveal" data-r="fade-up"><h2>MEET YOUR GUIDE.</h2></div>
+    <div class="tutor-panel reveal" data-r="fade-up">
+      <div class="tutor-avatar"></div>
+      <div class="tutor-text">
+        <div class="who">AI / VTuber Tutor</div>
+        <p class="line">"Let's look at this another way."</p>
+        <div class="tutor-actions"><span>Ask</span><span>Explain</span><span>Hint</span><span>Example</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kingdoms" data-title="Kingdoms">
+    <p class="eyebrow reveal" data-r="fade-up">03 · Future Ecosystem</p>
+    <div class="section-head reveal" data-r="fade-up"><h2>THE WORLD CAN GROW.</h2></div>
+    <div class="kw-map reveal" data-r="fade-scale">
+      <div class="kw-line"></div><div class="kw-node human"></div><div class="kw-node elf"></div>
+    </div>
+    <div class="kw-labels reveal" data-r="fade-up"><span>Human Kingdom</span><span>Elf Kingdom</span></div>
+    <p class="section-head lore reveal" data-r="fade-up" style="margin-top:1.6rem;font-size:1.05rem;">KINGDOM WARS</p>
+    <p class="disclaimer reveal" data-r="fade-up">A future layer where knowledge becomes strategy, collaboration and progression.</p>
+  </section>
+
+  <section id="model" data-title="Model">
+    <p class="eyebrow reveal" data-r="fade-up">For The Evaluators</p>
+    <div class="section-head reveal" data-r="fade-up">
+      <h2>A WORLD BUILT TO LAST.</h2>
+      <p class="lore">The headset opens the door. The world pays for itself.</p>
+    </div>
+    <div class="model-grid">
+      <div class="model-card hi reveal" data-r="fade-up">
+        <div class="tag">Hardware · Doorway</div><h4>The Headset</h4>
+        <div class="figures">Build cost: <b>₹15,000–20,000</b><br>Launch price: <b>₹19,999</b></div>
+        <ul><li>Priced near cost — removes the buying hesitation</li><li>Every unit sold funds the next batch</li><li>The hardware's job is adoption, not margin</li></ul>
+      </div>
+      <div class="model-card reveal" data-r="fade-up">
+        <div class="tag">Free Tier · Volume</div><h4>Camera-Based Entry</h4>
+        <div class="figures">Cost to join: <b>₹0</b><br>Hardware required: <b>None</b></div>
+        <ul><li>Facial/muscle-signal proxy replaces EEG data</li><li>Anyone with a phone can start the same story</li><li>This is the funnel the headset upgrades from</li></ul>
+      </div>
+      <div class="model-card hi reveal" data-r="fade-up">
+        <div class="tag">Software · Where Profit Lives</div><h4>The Recurring World</h4>
+        <div class="figures">Margin source: <b>Ongoing, not one-time</b></div>
+        <ul><li>Coin shop — in-quest hints, formulas, help items</li><li>Premium VTuber tutor sessions (group &amp; 1:1)</li><li>Seasonal AI-generated story episodes</li></ul>
+      </div>
+    </div>
+    <p class="model-note lore reveal" data-r="fade-up">Hardware is priced to be bought. The platform is priced to be lived in.</p>
+  </section>
+
+  <section id="final-mvp" data-title="MVP">
+    <p class="eyebrow reveal" data-r="fade-up">This Is The First Step</p>
+    <div class="flow reveal" data-r="fade-up">
+      <span class="node hi">EEG</span><span class="arrow"></span>
+      <span class="node hi">AI</span><span class="arrow"></span>
+      <span class="node">Personalized Story</span><span class="arrow"></span>
+      <span class="node">Learning</span>
+    </div>
+    <h2 class="reveal" data-r="fade-up" style="margin-top:2.4rem;">THE GNOSIS MVP</h2>
+    <div class="mvp-list reveal" data-r="fade-up">
+      <div class="row"><span class="tier">01</span><span>Personalized AI educational storytelling</span></div>
+      <div class="row"><span class="tier">02</span><span>AI / VTuber tutor</span></div>
+      <div class="row"><span class="tier">03</span><span>Foundational GNOSIS world experience</span></div>
+    </div>
+  </section>
+
+  <section id="final-cta" data-title="Enter">
+    <h2 class="reveal" data-r="fade-scale" style="line-height:0;"><img class="wordmark small" src="%BASE_URL%gnosis-logo.png" alt="GNOSIS.edu"></h2>
+    <p class="brand-sub reveal" data-r="fade-up">Knowledge of Everything</p>
+    <p class="brand-tag reveal" data-r="fade-up">Ready to enter?</p>
+    <div class="cta-row reveal" data-r="fade-up">
+      <a class="btn primary" href="#hero">Explore the MVP</a>
+      <a class="btn" href="#hero">Build GNOSIS</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>GNOSIS.edu — a world where learning itself becomes an experience.</footer>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
