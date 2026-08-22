@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://abhi13-coder.github.io/Gnosis.edu/sitemap.xml
